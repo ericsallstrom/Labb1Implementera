@@ -10,6 +10,15 @@ using Labb1Implementera.Services;
 
 namespace Labb1Implementera
 {
+    /// <summary>
+    /// The App class is the core of the application, responsible for managing the main application flow.
+    /// It handles user authentication, menu navigation, and delegates tasks to the appropriate services and models.
+    /// 
+    /// Design Patterns Implemented:
+    /// - Singleton: The UserManager and Logo classes use the Singleton pattern to ensure only one instance is created.
+    /// - Adapter: The SmartWatchAdapter class adapts the SmartWatch class to the IFitnessTracker interface.
+    /// - Factory Method: The User class uses the Factory Method pattern to create different types of RunEntry objects.
+    /// </summary>
     internal class App
     {
         private readonly UserManager _userManager;

@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            /* 
-             * Jag har skapat en fitness app där användaren kan fylla i data efter att ha genomfört en löprunda, maraton, etc.
-             * De designmönster som jag har implmenterat i min kod är Factory Method, Singleton och Adapter. 
+            /*
+             * I have created a fitness app where the user can input data after completing a run, marathon, etc.
+             * The design patterns I have implemented in my code are Factory Method, Singleton, and Adapter.
              */
 
             App app = new();
